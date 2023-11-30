@@ -13,6 +13,34 @@
     <!– Header –>
     <header class="header" data-section-theme="dark">
       <div class="container">
+        <div /* Grid section within your CSS */
+
+      /* flex-direction: row */
+      .row {
+        display: flex; /* Set display property to flex */
+        flex-wrap: wrap; /* Add this if you want the items to wrap to the next line when the container is too small */
+      }
+      
+      /* Remove the row::after declaration */
+      /* Remove the float: left inside [class*='col-'] */
+      [class*='col-'] {
+        box-sizing: border-box;
+        flex: 1; /* This will make the columns grow and shrink based on available space */
+        padding: 15px;
+      }
+      
+      /* Add any other styles you need for the columns */
+      
+      /* Optionally, you can add a selector for a specific column size if needed */
+      .col-1 {
+        flex: 0 0 8.33%; /* Set a specific width for the column */
+        max-width: 8.33%;
+      }
+      
+      /* Add any other styles for specific column sizes */
+      
+      /* Rest of your CSS */></div>
+         </div>
         <div class="header-logo">
           <a href="#">
             <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
