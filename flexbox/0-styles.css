@@ -16,10 +16,11 @@
         <div /* Grid section within your CSS */
 
       /* flex-direction: row */
-      .row {
+      .grid-container .row-class {
+        /*  .row {
         display: flex; /* Set display property to flex */
         flex-wrap: wrap; /* Add this if you want the items to wrap to the next line when the container is too small */
-      }
+      } */
       
       /* Remove the row::after declaration */
       /* Remove the float: left inside [class*='col-'] */
