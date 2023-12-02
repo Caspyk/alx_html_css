@@ -36,7 +36,9 @@
     clear: both;
     display: table;
 } */
+<div class*='col-'></div>
 
+<div class="col=" >
 /* Remove the float: left inside [class*='col-'] */
 [class*='col-'] {
     /* float: left; */ /* Remove the float property */
@@ -53,8 +55,8 @@
       
       /* Add any other styles for specific column sizes */
       
-      /* Rest of your CSS */></div>
-         </div>
+      /* Rest of your CSS */>
+</div>
         <div class="header-logo">
           <a href="#">
             <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
