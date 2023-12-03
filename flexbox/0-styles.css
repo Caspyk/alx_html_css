@@ -16,14 +16,14 @@
         <div /* Grid section within your CSS */
 
         <div class="row-class">
-          <!-- Content of the first row -->
+          <!-- /* flex-direction: row; */ -->
 
         <div class="row-class">
           <!-- Content of the second row -->
 
         <!-- Add more rows as needed -->
 /* Grid section within your CSS */
-/* flex-direction: row; */
+/* flex-direction: row */
 .row {
     display: flex;  /* Set display property to flex */
     flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
