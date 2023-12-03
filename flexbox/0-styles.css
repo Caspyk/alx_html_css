@@ -23,8 +23,7 @@
 
         <!-- Add more rows as needed -->
 /* Grid section within your CSS */
-
-/* Add a selector for the row class */
+/* flex-direction: row; */
 .row {
     display: flex;  /* Set display property to flex */
     flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
