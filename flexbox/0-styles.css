@@ -22,6 +22,9 @@
           <!-- Content of the second row -->
 
         <!-- Add more rows as needed -->
+  :nth-match(1 of .myclass)
+  $("table tr.b:first").before("<tr><td>css selector</td></tr>"):
+  $("table tr.b:eq(0)").before("<tr><td>css selector</td></tr>")
 /* Grid section within your CSS */
 /* flex-direction: row */
 .row {
