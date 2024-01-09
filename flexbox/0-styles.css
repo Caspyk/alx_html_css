@@ -18,15 +18,17 @@
         <div class="row-class">
           <!-- /* flex-direction: row; */ -->
 
-        <div class="row-class">
+        <
+        div class="row-class">
           <!-- Content of the second row -->
-
+        
         <!-- Add more rows as needed -->
   :nth-match(1 of .myclass)
   $("table tr.b:first").before("<tr><td>css selector</td></tr>"):
   $("table tr.b:eq(0)").before("<tr><td>css selector</td></tr>")
 /* Grid section within your CSS */
-/* flex-direction: row */
+/* flex-direction: row  
+   justify content: flex-startt*/
 .row {
     display: flex;  /* Set display property to flex */
     flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
