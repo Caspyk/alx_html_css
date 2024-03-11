@@ -178,11 +178,12 @@
   }
   
   /* Grid
-      ============================= */
+      ============================= *
   .row {
     display: flex;
   }
   
+>>>>>>> a7b82badb1557c816e911f8ca29abc983388f4fe
   ul.row {
     margin: 0;
     padding: 0;
@@ -191,7 +192,6 @@
 
   
   [class*='col-'] {
-    float: left;
     padding: 0.5rem;
   }
   
